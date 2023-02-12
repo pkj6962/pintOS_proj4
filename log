@@ -1,0 +1,166 @@
+Copying ../examples/additional to scratch partition...
+qemu-system-i386 -device isa-debug-exit -hda /tmp/Fuuphw9Twu.dsk -hdb filesys.dsk -m 4 -net none -nographic -monitor null
+c[?7l[2J[0mSeaBIOS (version 1.13.0-1ubuntu1.1)
+Booting from Hard Disk...
+PPiiLLoo  hhddaa1
+1
+LLooaaddiinngg.........................
+Kernel command line: -q extract
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  302,694,400 loops/s.
+I was executed
+hda: 1,008 sectors (504 kB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 217 sectors (108 kB), Pintos OS kernel (20)
+hda2: 103 sectors (51 kB), Pintos scratch (22)
+hdb: 5,040 sectors (2 MB), model "QM00002", serial "QEMU HARDDISK"
+hdb1: 4,096 sectors (2 MB), Pintos file system (21)
+filesys: using hdb1
+scratch: using hda2
+I was executed2
+Boot complete.
+Extracting ustar archive from scratch device into file system...
+Putting 'rm2' into the file system...
+Kernel PANIC at ../../filesys/fsutil.c:123 in fsutil_extract(): rm2: create failed
+Call stack: 0xc0029d06 0x655f6c69Kernel PANIC recursion at ../../threads/thread.c:269 in thread_current().
+c[?7l[2J[0mSeaBIOS (version 1.13.0-1ubuntu1.1)
+Booting from Hard Disk...
+PPiiLLoo  hhddaa1
+1
+LLooaaddiinngg.........................
+.
+Kernel command line: -q extract
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  303,104,000 loops/s.
+I was executed
+hda: 1,008 sectors (504 kB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 217 sectors (108 kB), Pintos OS kernel (20)
+hda2: 103 sectors (51 kB), Pintos scratch (22)
+hdb: 5,040 sectors (2 MB), model "QM00002", serial "QEMU HARDDISK"
+hdb1: 4,096 sectors (2 MB), Pintos file system (21)
+filesys: using hdb1
+scratch: using hda2
+I was executed2
+Boot complete.
+Extracting ustar archive from scratch device into file system...
+Putting 'rm2' into the file system...
+Kernel PANIC at ../../filesys/fsutil.c:123 in fsutil_extract(): rm2: create failed
+Call stack: 0xc0029d06 0x655f6c69Kernel PANIC recursion at ../../threads/thread.c:269 in thread_current().
+c[?7l[2J[0mSeaBIOS (version 1.13.0-1ubuntu1.1)
+Booting from Hard Disk...
+PPiiLLoo  hhddaa1
+1
+LLooaaddiinngg.........................
+Kernel command line: -q extract
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  413,696,000 loops/s.
+I was executed
+hda: 1,008 sectors (504 kB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 217 sectors (108 kB), Pintos OS kernel (20)
+hda2: 103 sectors (51 kB), Pintos scratch (22)
+hdb: 5,040 sectors (2 MB), model "QM00002", serial "QEMU HARDDISK"
+hdb1: 4,096 sectors (2 MB), Pintos file system (21)
+filesys: using hdb1
+scratch: using hda2
+I was executed2
+Boot complete.
+Extracting ustar archive from scratch device into file system...
+Putting 'rm2' into the file system...
+Kernel PANIC at ../../filesys/fsutil.c:123 in fsutil_extract(): rm2: create failed
+Call stack: 0xc0029d06 0x655f6c69Kernel PANIC recursion at ../../threads/thread.c:269 in thread_current().
+c[?7l[2J[0mSeaBIOS (version 1.13.0-1ubuntu1.1)
+Booting from Hard Disk...
+PPiiLLoo  hhddaa11
+
+LLooaaddiinngg.........................
+Kernel command line: -q extract
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  301,465,600 loops/s.
+I was executed
+hda: 1,008 sectors (504 kB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 217 sectors (108 kB), Pintos OS kernel (20)
+hda2: 103 sectors (51 kB), Pintos scratch (22)
+hdb: 5,040 sectors (2 MB), model "QM00002", serial "QEMU HARDDISK"
+hdb1: 4,096 sectors (2 MB), Pintos file system (21)
+Copying ../examples/rm to scratch partition...
+qemu-system-i386 -device isa-debug-exit -hda /tmp/A8eHypRAq2.dsk -hdb filesys.dsk -m 4 -net none -nographic -monitor null
+c[?7l[2J[0mSeaBIOS (version 1.13.0-1ubuntu1.1)
+Booting from Hard Disk...
+PPiiLLoo  hhddaa11
+
+LLooaaddiinngg.........................
+Kernel command line: -q extract
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  299,417,600 loops/s.
+I was executed
+hda: 1,008 sectors (504 kB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 217 sectors (108 kB), Pintos OS kernel (20)
+hda2: 103 sectors (51 kB), Pintos scratch (22)
+hdb: 5,040 sectors (2 MB), model "QM00002", serial "QEMU HARDDISK"
+hdb1: 4,096 sectors (2 MB), Pintos file system (21)
+filesys: using hdb1
+scratch: using hda2
+I was executed2
+Boot complete.
+Extracting ustar archive from scratch device into file system...
+Putting 'rm3' into the file system...
+Kernel PANIC at ../../filesys/fsutil.c:123 in fsutil_extract(): rm3: create failed
+Call stack: 0xc0029d06 0x655f6c69Kernel PANIC recursion at ../../threads/thread.c:269 in thread_current().
+c[?7l[2J[0mSeaBIOS (version 1.13.0-1ubuntu1.1)
+Booting from Hard Disk...
+PPiiLLoo  hhddaa11
+
+LLooaaddiinngg.........................
+Kernel command line: -q extract
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  314,163,200 loops/s.
+I was executed
+hda: 1,008 sectors (504 kB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 217 sectors (108 kB), Pintos OS kernel (20)
+hda2: 103 sectors (51 kB), Pintos scratch (22)
+hdb: 5,040 sectors (2 MB), model "QM00002", serial "QEMU HARDDISK"
+hdb1: 4,096 sectors (2 MB), Pintos file system (21)
+filesys: using hdb1
+scratch: using hda2
+I was executed2
+Boot complete.
+Extracting ustar archive from scratch device into file system...
+Putting 'rm3' into the file system...
+Kernel PANIC at ../../filesys/fsutil.c:123 in fsutil_extract(): rm3: create failed
+Call stack: 0xc0029d06 0x655f6c69Kernel PANIC recursion at ../../threads/thread.c:269 in thread_current().
+c[?7l[2J[0mSeaBIOS (version 1.13.0-1ubuntu1.1)
+Booting from Hard Disk...
+PPiiLLoo  hhddaa1
+1
+LLooaaddiinngg.........................
+Kernel command line: -q extract
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  303,104,000 loops/s.
+I was executed
+hda: 1,008 sectors (504 kB), model "QM00001", serial "QEMU HARDDISK"
+hda1: 217 sectors (108 kB), Pintos OS kernel (20)
+hda2: 103 sectors (51 kB), Pintos scratch (22)
+hdb: 5,040 sectors (2 MB), model "QM00002", serial "QEMU HARDDISK"
+hdb1: 4,096 sectors (2 MB), Pintos file system (21)
+filesys: using hdb1
+scratch: using hda2
+I was executed2
+Boot complete.
+Extracting ustar archive from scratch device into file system...
+Putting 'rm3' into the file system...
+Kernel PANIC at ../../filesys/fsutil.c:123 in fsutil_extract(): rm3: create failed
+Call stack: 0xc0029d06 0x655f6c69Kernel PANIC recursion at ../../threads/thread.c:269 in thread_current().
+c[?7l[2J[0mSeaBIOS (ver
